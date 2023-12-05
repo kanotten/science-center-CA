@@ -19,14 +19,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(assets/galaxy.jpg);
+    background: url(/Users/olanormann/dev/science-center-CA/assets/galaxy.jpg);
 }
 
 .earth {
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    background: url(assets/earth.jpg);
+    background: url(/Users/olanormann/dev/science-center-CA/assets/earth.jpg);
     position: relative;
     animation: earth-orbit 7s linear infinite;
 }
@@ -37,7 +37,7 @@
     height: 45px;
     border-radius: 50%;
     position: absolute;
-    background: url(assets/full-moon.webp);
+    background: url(/Users/olanormann/dev/science-center-CA/assets/full-moon.webp);
     border: none;
     background-size: cover;
     animation: moon-orbit 3.5s linear infinite;
