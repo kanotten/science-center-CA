@@ -89,10 +89,17 @@
 .button {
     margin: 0 10px;
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(255, 81, 0);
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
+    transition: box-shadow 0.3s ease; /* Added transition property */
 }
+
+.button:hover {
+    box-shadow: 0 0 0 2em transparent;
+}
+
+
