@@ -150,7 +150,7 @@
 /* footer styles */
 .footer {
     padding: 0 1.5rem 2.375rem;
-    background-color: red;
+    background-color: #6FE6A6;
     width: 100%;
     display: flex;
     flex-direction: column;
