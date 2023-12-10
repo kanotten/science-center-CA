@@ -112,12 +112,19 @@
     height: 80px;
     top: 0;
     position: sticky;
+    justify-content: center;
+    padding-top: 2vw;
+
 }
 
 .menu-bar {
     max-width: 360px;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
+    padding: 2vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -125,74 +132,17 @@ h1 {
 
 }
 
-/* 408754707_7123575911038044_5700882248535197700_n 3
+.hamburger-icon {
+    margin-right: 10px;
+    width: 100%;
 
-position: absolute;
-width: 329px;
-height: 68px;
-left: -9px;
-top: 0px;
+}
 
-background: url(408754707_7123575911038044_5700882248535197700_n.png);
+.hero-banner-container {
+    padding: 2vw;
+    
 
-*/
- Group 18
-
-position: absolute;
-width: 32px;
-height: 12px;
-left: 272px;
-top: 28px;
+}
 
 
-
-/* Line 1
-
-position: absolute;
-width: 26px;
-height: 0px;
-left: 275px;
-top: 28px;
-
-border: 4px solid #DB9350;
-
-
-/* Line 2
-
-position: absolute;
-width: 32px;
-height: 0px;
-left: 272px;
-top: 34px;
-
-border: 4px solid #DB9350;
-
-/* Line 3
-
-position: absolute;
-width: 26px;
-height: 0px;
-left: 275px;
-top: 40px;
-
-border: 4px solid #DB9350;
-
-
-/* VISIT US
-
-position: absolute;
-width: 217px;
-height: 65px;
-left: 31px;
-top: 4px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-
-color: #FFFFFF;
-
-*/
 
