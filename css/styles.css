@@ -201,3 +201,29 @@
     justify-content: center;
     gap: 1rem;
 }
+
+#nav-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#nav-footer .nav-footer-item {
+    color: black;
+    font-size: .8125rem;
+    line-height: 1.5625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+#nav-footer li {
+    list-style: none; /* Apply list-style: none to the li element */
+}
+
+#nav-footer li a {
+    display: block;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+}
