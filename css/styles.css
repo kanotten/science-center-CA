@@ -147,6 +147,20 @@
 
 
 }
+
+.hero-banner img {
+     width: 800px; /* Replace with your desired width */
+    height: 400px; /* Replace with your desired height */
+    background-image: url('path/to/your-image.jpg'); /* Replace with the actual URL of your image */
+    background-size: cover;
+    background-position: center;
+}
+/*end of header styles*/
+
+/* Exhinition page styles here*/
+
+
+
 /* footer styles */
 .footer {
     padding: 0 1.5rem 2.375rem;
