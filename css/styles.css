@@ -121,16 +121,18 @@
     max-width: 360px;
     margin: 0;
     position: relative;
-    padding: 2vw;
+    padding: 1rem 1.5rem;
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
-h1 {
+.menu-bar h1 {
+    margin: 5px 0; /* Add margin between the elements if needed */
     color: white;
-
 }
+
+
 
 .hamburger-icon {
     margin-right: 10px;
@@ -139,10 +141,44 @@ h1 {
 }
 
 .hero-banner-container {
+    width: 100vw;
     padding: 2vw;
-    
+
+
 
 }
+/* footer styles */
+.footer {
+    padding: 0 1.5rem 2.375rem;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+}
 
+.footer .footer-container {
+    width: 100%;
+    max-width: 69.375rem;
+}
 
+.footer .footer-container .footer-content {
+    width: 100%;
+    position: relative;
+}
 
+.footer .footer-container .footer-content .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer-icons-section {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
