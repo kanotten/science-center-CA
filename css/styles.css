@@ -143,23 +143,18 @@
 .hero-banner-container {
     width: 100vw;
     padding: 2vw;
-
-
-
 }
 
-.hero-banner img {
-     width: 800px; /* Replace with your desired width */
-    height: 400px; /* Replace with your desired height */
-    background-image: url('path/to/your-image.jpg'); /* Replace with the actual URL of your image */
-    background-size: cover;
-    background-position: center;
-}
+
 /*end of header styles*/
 
 /* Exhinition page styles here*/
 
-
+.main-layout {
+    padding: 2.5rem 1.5rem 7.5rem;
+    width: 100%;
+    position: static;
+}
 
 /* footer styles */
 .footer {
