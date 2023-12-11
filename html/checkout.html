@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,13 +9,15 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../css/styles.css'>
     <script src='../js/script.js'></script>
 </head>
+
 <body>
     <!--i am still working on the header, it starts here-->
     <header id="menu-bar-container">
         <div class="menu-bar">
             <h1>CHECKOUT</h1>
             <nav class="nav-bar">
-                <svg class="hambuger-icon" id="menu-icon" width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="hambuger-icon" id="menu-icon" width="32" height="16" viewBox="0 0 32 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 2L29 2" stroke="#DB9350" stroke-width="4" />
                     <path d="M0 8L32 8" stroke="#DB9350" stroke-width="4" />
                     <path d="M2.99999 14L29 14" stroke="#DB9350" stroke-width="4" />
@@ -32,13 +35,89 @@
         </div>
     </header> <!--header ends here-->
 
-    <main class="main-layout">
+    <main class="main-container-wrapper layout-checkout checkout-main-container">
         <div class="main-container">
-            <!--Write your code inside here, it will keep everything you write under eachother as standard-->
-            
-
+            <a href="Visit.html" class="index-button">Go back</a>
+            <form class="checkout-wrapper">
+                <section class="checkout-form-section">
+                    <h1 class="checkout-form-section-title">Checkout</h1>
+                    <div class="checkout-form-inputs">
+                        <section class="form-details">
+                            <h2 class="form-details-title">Billing Details</h2>
+                            <div class="form-details-inputs">
+                                <div class="form-input undefined"><label class="form-input-label"
+                                        for="name">Name<span></span></label><input name="name"
+                                        class="form-input-element" id="name" placeholder="Hashbulla"></div>
+                                <div class="form-input undefined"><label class="form-input-label" for="email">Email
+                                        Address<span></span></label><input name="email" class="form-input-element"
+                                        id="email" placeholder="babushka@mail.com"></div>
+                            </div>
+                            <div class="form-details-inputs">
+                                <div class="form-input undefined"><label class="form-input-label" for="phone">Phone
+                                        Number<span></span></label><input name="phone" class="form-input-element"
+                                        id="phone" placeholder="+47 11211212"></div>
+                            </div>
+                        </section>
+                        <section class="form-details">
+                            <h2 class="form-details-title">Shipping Info</h2>
+                            <div>
+                                <div class="form-input undefined"><label class="form-input-label"
+                                        for="address">Address<span></span></label><input name="address"
+                                        class="form-input-element" id="address" placeholder="portobello">
+                                </div>
+                            </div>
+                            <div class="form-details-inputs">
+                                <div class="form-input undefined"><label class="form-input-label" for="zip">ZIP
+                                        Code<span></span></label><input name="zip" class="form-input-element" id="zip"
+                                        placeholder="0349"></div>
+                                <div class="form-input undefined"><label class="form-input-label"
+                                        for="city">City<span></span></label><input name="city"
+                                        class="form-input-element" id="city" placeholder="Oslo"></div>
+                            </div>
+                            <div class="form-details-inputs">
+                                <div class="form-input undefined"><label class="form-input-label"
+                                        for="country">Country<span></span></label><input name="country"
+                                        class="form-input-element" id="country" placeholder="Norway"></div>
+                            </div>
+                        </section>
+                        <section class="form-details">
+                            <h2 class="form-details-title">Payment Details</h2>
+                            <div class="form-details-inputs">
+                                <p class="form-input-label">Payment Method</p>
+                                <div class="form-radio-inputs"><label tabindex="0" class="radio-input-container"
+                                        for="pay"><input name="pay" type="radio" id="pay"
+                                            value="e-money">e-Money</label><label tabindex="0"
+                                        class="radio-input-container" for="pay"><input name="pay" type="radio" id="pay"
+                                            value="cash" checked="">Cash on Delivery</label></div>
+                            </div>
+                            <div class="cash-section"><img src="assets/checkout/icon-cash-on-delivery.svg"
+                                    alt="cash-icon">
+                                <p class="text-default text-black undefined undefined">The ‘Cash on Delivery’ option
+                                    enables you to pay in cash when our delivery courier arrives at your residence. Just
+                                    make sure your address is correct so that your order will not be cancelled.</p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="checkout-product">
+                    <h2 class="checkout-product-title">Summary</h2>
+                    <div class="checkout-product-container">
+                        <p class="text-default text-black undefined undefined">Yor cart is empty</p>
+                    </div>
+                    <div class="checkout-product-prices">
+                        <p class="text-default text-black undefined checkout-product-prices-item">Total<span
+                                class="checkout-product-prices-item-span">$0</span></p>
+                        <p class="text-default text-black undefined checkout-product-prices-item">Shipping<span
+                                class="checkout-product-prices-item-span">$0</span></p>
+                        <p class="text-default text-black undefined checkout-product-prices-item">Vat (Included)<span
+                                class="checkout-product-prices-item-span">$0</span></p>
+                        <p class="text-default text-black undefined checkout-product-prices-item">Grand Total<span
+                                class="checkout-product-prices-item-span">$0</span></p>
+                    </div><button type="submit" class="btn-styles btn-default checkout-button" disabled="">Continue and
+                        Pay</button>
+                </section>
+            </form>
         </div>
-
     </main>
 
     <footer class="footer">
@@ -55,9 +134,9 @@
                     </ul>
                 </section>
                 <p class="text-default text-white text-center footer-text">
-                   NorSci Science Center As
-                   Adress: storgata 26 0037 Oslo.
-                   todays hours: 9-16
+                    NorSci Science Center As
+                    Adress: storgata 26 0037 Oslo.
+                    todays hours: 9-16
 
 
                 </p>
@@ -78,4 +157,5 @@
     </footer>
 
 </body>
+
 </html>
