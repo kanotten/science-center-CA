@@ -192,14 +192,35 @@ img {
     display: flex;
     display: inline-block;
     flex-direction: row;
+    position: relative;
+}
+
+.section-title-one {
+    display: inline-block;
+    margin-right: 15px;
 
 }
 
-.divider-line-one {
-    width: 17rem;
-    height: 0.25rem;
+.divider {
+    width: 70%;
+    height: 2px;
     background-color: black;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
+.content-text-one {
+    /* it is refers to the divider line and h2 in each section*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+
+
+/* remember to add position to other dividers*/
 
 p {
     margin-top: 1em;
