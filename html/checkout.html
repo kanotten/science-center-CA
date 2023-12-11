@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>CHECKOUT</title>
+    <title>Visit us</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/styles.css'>
     <script src='../js/script.js'></script>
 </head>
-
 <body>
     <!--i am still working on the header, it starts here-->
     <header id="menu-bar-container">
         <div class="menu-bar">
-            <h1>CHECKOUT</h1>
+            <h1>VISIT US</h1>
             <nav class="nav-bar">
-                <svg class="hambuger-icon" id="menu-icon" width="32" height="16" viewBox="0 0 32 16" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                <svg class="hambuger-icon" id="menu-icon" width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 2L29 2" stroke="#DB9350" stroke-width="4" />
                     <path d="M0 8L32 8" stroke="#DB9350" stroke-width="4" />
                     <path d="M2.99999 14L29 14" stroke="#DB9350" stroke-width="4" />
@@ -35,89 +32,87 @@
         </div>
     </header> <!--header ends here-->
 
-    <main class="main-container-wrapper layout-checkout checkout-main-container">
+    <main class="main-layout">
         <div class="main-container">
-            <a href="Visit.html" class="index-button">Go back</a>
-            <form class="checkout-wrapper">
-                <section class="checkout-form-section">
-                    <h1 class="checkout-form-section-title">Checkout</h1>
-                    <div class="checkout-form-inputs">
-                        <section class="form-details">
-                            <h2 class="form-details-title">Billing Details</h2>
-                            <div class="form-details-inputs">
-                                <div class="form-input undefined"><label class="form-input-label"
-                                        for="name">Name<span></span></label><input name="name"
-                                        class="form-input-element" id="name" placeholder="Hashbulla"></div>
-                                <div class="form-input undefined"><label class="form-input-label" for="email">Email
-                                        Address<span></span></label><input name="email" class="form-input-element"
-                                        id="email" placeholder="babushka@mail.com"></div>
-                            </div>
-                            <div class="form-details-inputs">
-                                <div class="form-input undefined"><label class="form-input-label" for="phone">Phone
-                                        Number<span></span></label><input name="phone" class="form-input-element"
-                                        id="phone" placeholder="+47 11211212"></div>
-                            </div>
-                        </section>
-                        <section class="form-details">
-                            <h2 class="form-details-title">Shipping Info</h2>
-                            <div>
-                                <div class="form-input undefined"><label class="form-input-label"
-                                        for="address">Address<span></span></label><input name="address"
-                                        class="form-input-element" id="address" placeholder="portobello">
-                                </div>
-                            </div>
-                            <div class="form-details-inputs">
-                                <div class="form-input undefined"><label class="form-input-label" for="zip">ZIP
-                                        Code<span></span></label><input name="zip" class="form-input-element" id="zip"
-                                        placeholder="0349"></div>
-                                <div class="form-input undefined"><label class="form-input-label"
-                                        for="city">City<span></span></label><input name="city"
-                                        class="form-input-element" id="city" placeholder="Oslo"></div>
-                            </div>
-                            <div class="form-details-inputs">
-                                <div class="form-input undefined"><label class="form-input-label"
-                                        for="country">Country<span></span></label><input name="country"
-                                        class="form-input-element" id="country" placeholder="Norway"></div>
-                            </div>
-                        </section>
-                        <section class="form-details">
-                            <h2 class="form-details-title">Payment Details</h2>
-                            <div class="form-details-inputs">
-                                <p class="form-input-label">Payment Method</p>
-                                <div class="form-radio-inputs"><label tabindex="0" class="radio-input-container"
-                                        for="pay"><input name="pay" type="radio" id="pay"
-                                            value="e-money">e-Money</label><label tabindex="0"
-                                        class="radio-input-container" for="pay"><input name="pay" type="radio" id="pay"
-                                            value="cash" checked="">Cash on Delivery</label></div>
-                            </div>
-                            <div class="cash-section"><img src="assets/checkout/icon-cash-on-delivery.svg"
-                                    alt="cash-icon">
-                                <p class="text-default text-black undefined undefined">The ‘Cash on Delivery’ option
-                                    enables you to pay in cash when our delivery courier arrives at your residence. Just
-                                    make sure your address is correct so that your order will not be cancelled.</p>
-                            </div>
-                        </section>
-                    </div>
-                </section>
-                <section class="checkout-product">
-                    <h2 class="checkout-product-title">Summary</h2>
-                    <div class="checkout-product-container">
-                        <p class="text-default text-black undefined undefined">Yor cart is empty</p>
-                    </div>
-                    <div class="checkout-product-prices">
-                        <p class="text-default text-black undefined checkout-product-prices-item">Total<span
-                                class="checkout-product-prices-item-span">$0</span></p>
-                        <p class="text-default text-black undefined checkout-product-prices-item">Shipping<span
-                                class="checkout-product-prices-item-span">$0</span></p>
-                        <p class="text-default text-black undefined checkout-product-prices-item">Vat (Included)<span
-                                class="checkout-product-prices-item-span">$0</span></p>
-                        <p class="text-default text-black undefined checkout-product-prices-item">Grand Total<span
-                                class="checkout-product-prices-item-span">$0</span></p>
-                    </div><button type="submit" class="btn-styles btn-default checkout-button" disabled="">Continue and
-                        Pay</button>
-                </section>
-            </form>
+            <!--skriv koden din inni denne diven. da er rikitg med spacing til siden. se evt exhibit som eksempel-->
+            <h2>Checkout Form</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="name"><i class="user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Kenny">
+            <label for="email"><i class="envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="olanorman@hotmail.com">
+            <label for="adr"><i class="address-card"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Solsikkeveien   ">
+            <label for="country"><i class="institution"></i> Country</label>
+            <input type="text" id="city" name="city" placeholder="Norway">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">City</label>
+                <input type="text" id="state" name="state" placeholder="Oslo">
+              </div>
+              <div class="col-50">
+                <label for="postnr">Postcode</label>
+                <input type="text" id="zip" name="zip" placeholder="0347">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="patty G">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="December">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2027">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123">
+              </div>
+            </div>
+          </div>
+
         </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>3</b></span></h4>
+      <p><a href="#">2 childern</a> <span class="price">150 NOK</span></p>
+      <p><a href="#">1 combo</a> <span class="price">300 NOK</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>450 NOK</b></span></p>
+    </div>
+  </div>
+</div>
+
+        </div>
+
     </main>
 
     <footer class="footer">
@@ -134,9 +129,9 @@
                     </ul>
                 </section>
                 <p class="text-default text-white text-center footer-text">
-                    NorSci Science Center As
-                    Adress: storgata 26 0037 Oslo.
-                    todays hours: 9-16
+                   NorSci Science Center As
+                   Adress: storgata 26 0037 Oslo.
+                   todays hours: 9-16
 
 
                 </p>
@@ -157,5 +152,4 @@
     </footer>
 
 </body>
-
 </html>
