@@ -1,4 +1,3 @@
-
 /* Skriv kommentar på hvor koden din starter og slutter. det gjør det lettere å finne frem */
 
 
@@ -133,7 +132,8 @@
 }
 
 .menu-bar h1 {
-    margin: 5px 0; /* Add margin between the elements if needed */
+    margin: 5px 0;
+    /* Add margin between the elements if needed */
     color: white;
 }
 
@@ -160,8 +160,9 @@
     width: 100%;
     position: static;
 }
+
 .main-container {
-    gap: 7.5rem ;
+    gap: 7.5rem;
     position: relative;
     width: 100%;
     padding: 5px;
@@ -183,7 +184,8 @@
 }
 
 img {
-    max-width: 100%; /* keep img inside its parent */
+    max-width: 100%;
+    /* keep img inside its parent */
 }
 
 .section-content-one {
@@ -193,7 +195,7 @@ img {
 
 }
 
-.divider-line-one{
+.divider-line-one {
     width: 17rem;
     height: 0.25rem;
     background-color: black;
@@ -255,7 +257,8 @@ img {
 }
 
 #nav-footer li {
-    list-style: none; /* Apply list-style: none to the li element */
+    list-style: none;
+    /* Apply list-style: none to the li element */
 }
 
 #nav-footer li a {
@@ -264,99 +267,67 @@ img {
     padding: 1px;
     text-decoration: none;
 }
+
 /* footer styles ends here */
 
 /* Checkout styles starts here*/
-.checkout {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-
-  }
-  .checkout form {
-    display: flex;
-    flex-direction: column;
-  }
-  .checkout label {
-    margin-top: 20px;
-  }
-  .checkout input[type="text"] {
-    padding: 10px;
-    margin-top: 5px;
-  }
-  .checkout input[type="submit"] {
-    margin-top: 30px;
-    padding: 10px;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  @media (max-width: 600px) {
-    .checkout {
-      padding: 10px;
-    }
-  }
-
-  .row {
+.row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 -16px;
-  }
+}
 
-  .col-25 {
+.col-25 {
     -ms-flex: 25%;
     flex: 25%;
-  }
+}
 
-  .col-50 {
+.col-50 {
     -ms-flex: 50%;
     flex: 50%;
-  }
+}
 
-  .col-75 {
+.col-75 {
     -ms-flex: 75%;
     flex: 75%;
-  }
+}
 
-  .col-25,
-  .col-50,
-  .col-75 {
+.col-25,
+.col-50,
+.col-75 {
     padding: 0 16px;
-  }
+}
 
-  .container {
+.container {
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
-  }
+}
 
-  input[type=text] {
+input[type=text] {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
-  }
+}
 
-  label {
+label {
     margin-bottom: 10px;
     display: block;
-  }
+}
 
-  .icon-container {
+.icon-container {
     margin-bottom: 20px;
     padding: 7px 0;
     font-size: 24px;
-  }
+}
 
-  .btn {
-    background-color: #04AA6D;
+.btn {
+    background-color: orange;
     color: white;
     padding: 12px;
     margin: 10px 0;
@@ -365,30 +336,31 @@ img {
     border-radius: 3px;
     cursor: pointer;
     font-size: 17px;
-  }
+}
 
-  .btn:hover {
+.btn:hover {
     background-color: #45a049;
-  }
+}
 
-  a {
+a {
     color: #2196F3;
-  }
+}
 
-  hr {
+hr {
     border: 1px solid lightgrey;
-  }
+}
 
-  span.price {
+span.price {
     float: right;
     color: grey;
-  }
+}
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
     .row {
-      flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
+
     .col-25 {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-  }
+}
