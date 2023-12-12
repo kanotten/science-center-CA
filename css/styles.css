@@ -370,6 +370,13 @@ p {
     flex: 25%;
 }
 
+.container .shopping-cart {
+    color: red;
+    height: 100px;
+    width: 100px;
+
+}
+
 .col-50 {
     -ms-flex: 50%;
     flex: 50%;
