@@ -466,3 +466,12 @@ span.price {
         margin-bottom: 20px;
     }
 }
+
+#popup-box-id {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: none;
+    visibility: hidden;
+}
+
