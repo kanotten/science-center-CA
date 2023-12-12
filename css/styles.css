@@ -175,13 +175,16 @@
 .opening-hours p {
     color: white;
 }
+
 .sunday-hours p {
     color: white;
     margin-right: 10px;
 }
+
 .sunday-hours .closed {
     color: red;
 }
+
 .sunday-hours p {
     white-space: nowrap;
 
@@ -276,6 +279,7 @@ img {
     text-align: center;
     margin-top: 1em;
 }
+
 /* Exhibition page styles ends here*/
 
 
