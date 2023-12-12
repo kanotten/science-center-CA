@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Index page styling from line 6 - 105 */
@@ -402,6 +403,10 @@ p {
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
+}
+
+#checkout-container {
+    gap: 1rem;
 }
 
 input[type=text] {
