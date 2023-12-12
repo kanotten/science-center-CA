@@ -374,9 +374,10 @@ p {
   border-radius: 3px;
 }
 
-#checkout-container {
-  gap: 1rem;
+.checkout-container {
+    gap: 1rem;
 }
+
 
 input[type="text"] {
   width: 100%;
