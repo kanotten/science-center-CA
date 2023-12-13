@@ -343,14 +343,14 @@ p {
   gap: 1rem;
 }
 
-#nav-footer {
+#nav-id {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   margin: 1em 1em;
 }
 
-#nav-footer .nav-footer-item {
+#nav-id .nav-item {
   color: black;
   font-size: 0.8125rem;
   line-height: 1.5625rem;
@@ -359,18 +359,31 @@ p {
   list-style: none;
 }
 
-#nav-footer li {
+#nav-id li {
   list-style: none;
   /* Apply list-style: none to the li element */
 }
 
-#nav-footer li a {
+#nav-id li a {
   display: block;
   text-align: center;
   padding: 1px;
   text-decoration: none;
 }
 
+.footer-text {
+   text-align: center;
+}
+
+.footer-copy {
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text .footer-opening-hours {
+    color: red;
+
+}
 /* footer styles ends here */
 
 /* Checkout styles starts here*/
