@@ -105,34 +105,31 @@
 
 /* Header and navigation and hero banner start here */
 #menu-bar-container {
-  background-image: url(../assets/universe.jpg);
+  background-image: url(../assets/headerpic2.jpg);
   height: 80px;
   top: 0;
   position: sticky;
-  justify-content: center;
-  padding-top: 2vw;
+  background-size: cover;
   z-index: 1000;
 }
 
 .menu-bar {
   max-width: 360px;
-  margin: 0;
   position: relative;
-  padding: 1rem 1.5rem;
   justify-content: space-between;
   display: flex;
   align-items: center;
+  padding: 1.5rem 1.5rem 1.5rem;
 }
 
 .menu-bar h1 {
-  margin: 5px 0;
   /* Add margin between the elements if needed */
   color: white;
 }
 
-.hamburger-icon {
-  margin-right: 10px;
-  width: 100%;
+.nav-bar {
+  display: flex;
+  align-items: center;
 }
 
 #popup-box-id {
@@ -178,38 +175,38 @@
 .hero-banner {
   background-image: url(../assets/universe.jpg);
   background-size: cover;
-  height: 300px;
+  height: 200px;
   /* Set a width for the container */
   position: relative;
-  padding: 0rem 1.5rem 0rem;
+  padding: 1.5rem 1.5rem 1.5rem;
   width: 100%;
 }
 
 .hero-banner h2 {
   color: white;
-
 }
-
-.sunday-hours {
+.opening-hours-container {
   display: flex;
-  display: inline-block;
+
+  justify-content: space-between;
+  text-align: center;
 }
 
-.opening-hours p {
+.opening-hours-container p {
   color: white;
-}
-
-.sunday-hours p {
-  color: white;
-  margin-right: 10px;
-}
-
-.sunday-hours .closed {
-  color: red;
-}
-
-.sunday-hours p {
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
+  word-spacing: 1rem;
+}
+.opening-hours-container .closed {
+  color: red;
+  margin-left: 10px;
+}
+
+.opening-hours-schedule p {
+  margin: 0;
 }
 
 /*end of header, banner and nav styles*/
