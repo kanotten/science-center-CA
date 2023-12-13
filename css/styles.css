@@ -135,13 +135,7 @@
   width: 100%;
 }
 
-.hero-banner-container {
-  height: 100%;
-  width: 100%;
-}
-
 #popup-box-id {
-
   z-index: 1;
   width: 80%;
   height: 250px;
@@ -152,41 +146,48 @@
 }
 
 #popup-box-id .popup-box-logo {
-    display:flex;
-    justify-content: center;
-
-
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
   height: 50px;
   width: 50px;
-
 }
 
 .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
-    display: none; /* Initially hidden */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value for transparency */
+  display: none; /* Initially hidden */
+}
+
+.hero-banner-container {
+  height: 100%;
+  width: 100%;
 }
 
 .hero-banner {
   background-image: url(../assets/universe.jpg);
   background-size: cover;
   height: 300px;
-  /* Adjust the height as needed */
-  width: 100%;
   /* Set a width for the container */
   position: relative;
+  padding: 0rem 1.5rem 0rem;
+  width: 100%;
 }
 
 .hero-banner h2 {
   color: white;
-  margin-left: 25px;
+
 }
 
 .sunday-hours {
@@ -372,17 +373,16 @@ p {
 }
 
 .footer-text {
-   text-align: center;
+  text-align: center;
 }
 
 .footer-copy {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-text .footer-opening-hours {
-    color: red;
-
+  color: red;
 }
 /* footer styles ends here */
 
@@ -480,4 +480,3 @@ span.price {
     margin-bottom: 20px;
   }
 }
-
