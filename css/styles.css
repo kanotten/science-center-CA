@@ -508,3 +508,16 @@ span.price {
     font-size: 30px;
   }
 }
+
+/* ALL CSS Patrick*/
+
+.main-explore { /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
+  padding: 0;  /* Må byttes ut, og styles med resten av pagen*/
+  margin: 0;
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 15px;  /*styre avstand mellom elementene på siden*/
+  margin-top: 10px; /*alle får samme top margin som øverste element*/
+  font-size: 14px;
+}
+
