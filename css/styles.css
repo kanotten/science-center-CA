@@ -511,6 +511,7 @@ span.price {
 
 /* ALL CSS Patrick*/
 
+/*main*/
 .main-explore { /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
   padding: 0;  /* Må byttes ut, og styles med resten av pagen*/
   margin: 0;
@@ -532,4 +533,10 @@ span.price {
   padding: 0px 40px;
   max-width: 600px; /*maks størrelse for denne containeren er 600, pga main (parent) ikke kan bli større enn 600px*/
   margin: 0 auto; /*sentrerer 0 gjør ikke så mye alene på y akse, men auto, gjør at alt space mellom høyre og venstre blir likt, derfor blir ting sentrert*/
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
