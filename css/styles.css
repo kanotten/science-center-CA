@@ -569,3 +569,7 @@ img {
     font-size: 30px;
   }
 }
+
+.container-image {
+  position: relative;
+}
