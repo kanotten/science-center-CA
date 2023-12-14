@@ -521,3 +521,9 @@ span.price {
   font-size: 14px;
 }
 
+.explore-herobanner {
+  padding: 0px 20px;
+  max-width: 800px; /*maks størrelse for denne containeren er 800, pga main (parent) ikke kan bli større enn 600px*/
+  margin: 0 auto;
+}
+
