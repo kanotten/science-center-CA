@@ -431,7 +431,7 @@ span.price {
 }
 
 .footer-icons-section {
-  margin-top: 3rem;
+
   width: 100%;
   display: flex;
   justify-content: center;
@@ -487,15 +487,50 @@ span.price {
   body {
     font-size: 18px;
   }
+
+  .nav-bar svg {
+    height: 35px;
+    width: 50px;
+  }
+
+  .opening-hours-schedule {
+    font-size: 1.2em;
+
+  }
+
   .index-buttons-container {
     margin-top: 40%; /* Adjust the value for desktops */
   }
+
+  .divider {
+    width: 87%;
+  }
+
+
+  .footer-content {
+    font-size: 1.2em;
+  }
+
+  #nav-id .nav-item {
+    font-size: 0.5em; /* Adjust the font size as needed */
+
+  }
+
+  .footer-icons-section a img {
+    width: 35px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
+
 
 /* Desktop styles (for screens 1024px and larger) */
 @media only screen and (min-width: 1024px) {
   body {
     font-size: 24px;
+  }
+
+  #menu-bar-container {
+    height: 120px;
   }
 
   .nav-bar svg {
@@ -554,6 +589,11 @@ span.price {
   #nav-id .nav-item {
     font-size: 0.7em; /* Adjust the font size as needed */
 
+  }
+
+  .footer-icons-section a img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
   }
 
 }
