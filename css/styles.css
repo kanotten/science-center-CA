@@ -508,6 +508,10 @@ span.price {
     font-size: 30px;
   }
 
+  .divider {
+    width: 87%;
+  }
+
   @keyframes earth-orbit {
     from {
       transform: rotate(0deg) translateX(250px) rotate(0deg);
