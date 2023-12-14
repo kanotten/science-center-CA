@@ -507,6 +507,25 @@ span.price {
   #Index-title {
     font-size: 30px;
   }
+
+  @keyframes earth-orbit {
+    from {
+      transform: rotate(0deg) translateX(250px) rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    }
+  }
+
+  @keyframes moon-orbit {
+    from {
+      transform: rotate(0deg) translateX(75px) rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg) translateX(75px) rotate(-360deg);
+    }
 }
 
 /* ALL CSS Patrick*/
