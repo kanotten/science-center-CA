@@ -496,10 +496,15 @@ span.price {
   body {
     font-size: 24px;
   }
+
+  .sun {
+    height: 300px;
+    width: 300px;
+  }
   .index-buttons-container {
     margin-top: 30%; /* Adjust the value for desktops */
   }
-  #index-title {
+  #Index-title {
     font-size: 30px;
   }
 }
