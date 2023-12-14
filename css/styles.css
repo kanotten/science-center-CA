@@ -5,6 +5,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  
 }
 
 /* Index page styling from line 6 - 105 */
@@ -530,17 +531,19 @@ span.price {
     to {
       transform: rotate(360deg) translateX(75px) rotate(-360deg);
     }
+  }
 }
 
 /* ALL CSS Patrick*/
 
 /*main*/
-.main-explore { /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
-  padding: 0;  /* Må byttes ut, og styles med resten av pagen*/
+.main-explore {
+  /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
+  padding: 0; /* Må byttes ut, og styles med resten av pagen*/
   margin: 0;
   box-sizing: border-box;
   text-align: left;
-  margin-bottom: 15px;  /*styre avstand mellom elementene på siden*/
+  margin-bottom: 15px; /*styre avstand mellom elementene på siden*/
   margin-top: 10px; /*alle får samme top margin som øverste element*/
   font-size: 14px;
 }
@@ -579,7 +582,7 @@ img {
 
 .container2 .container-image .text {
   position: absolute;
-  color:white;
+  color: white;
   top: 10px;
   right: 10px;
   font-size: 15px;
