@@ -5,7 +5,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  
+
 }
 
 /* Index page styling from line 6 - 105 */
@@ -498,6 +498,20 @@ span.price {
     font-size: 24px;
   }
 
+  .nav-bar svg {
+    height: 35px;
+    width: 60px;
+  }
+
+  .opening-hours-schedule {
+    font-size: 1.2em;
+
+  }
+
+  .hero-banner {
+    height: 250px;
+  }
+
   .sun {
     height: 250px;
     width: 250px;
@@ -532,6 +546,16 @@ span.price {
       transform: rotate(360deg) translateX(75px) rotate(-360deg);
     }
   }
+
+  .footer-content {
+    font-size: 1.5em;
+  }
+
+  #nav-id .nav-item {
+    font-size: 0.7em; /* Adjust the font size as needed */
+
+  }
+
 }
 
 /* ALL CSS Patrick*/
