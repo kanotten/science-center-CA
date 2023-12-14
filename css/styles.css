@@ -508,3 +508,64 @@ span.price {
     font-size: 30px;
   }
 }
+
+/* ALL CSS Patrick*/
+
+/*main*/
+.main-explore { /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
+  padding: 0;  /* Må byttes ut, og styles med resten av pagen*/
+  margin: 0;
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 15px;  /*styre avstand mellom elementene på siden*/
+  margin-top: 10px; /*alle får samme top margin som øverste element*/
+  font-size: 14px;
+}
+
+.explore-herobanner {
+  padding: 0px 20px;
+  max-width: 800px; /*maks størrelse for denne containeren er 800, pga main (parent) ikke kan bli større enn 600px*/
+  margin: 0 auto;
+}
+
+.explore-content {
+  padding: 0px 40px;
+  max-width: 600px; /*maks størrelse for denne containeren er 600, pga main (parent) ikke kan bli større enn 600px*/
+  margin: 0 auto; /*sentrerer 0 gjør ikke så mye alene på y akse, men auto, gjør at alt space mellom høyre og venstre blir likt, derfor blir ting sentrert*/
+}
+
+/*Mulig denne må byttes ut?*/
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container2 img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container2 .container-image .text {
+  position: absolute;
+  color:white;
+  top: 10px;
+  right: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Sørger for at teksten blir større, etter min 650px størrelse*/ /*navngi for å gi style spesifikt i høyere reso*/
+@media only screen and (min-width: 650px) {
+  .container2 .container-image .text {
+    font-size: 30px;
+  }
+}
