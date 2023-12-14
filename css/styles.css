@@ -5,7 +5,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 
 /* Index page styling from line 6 - 105 */
@@ -432,7 +431,6 @@ span.price {
 }
 
 .footer-icons-section {
-
   width: 100%;
   display: flex;
   justify-content: center;
@@ -484,46 +482,42 @@ span.price {
 /* Here are diffirent scalings for screens */
 
 /* Tablet styles (for screens 768px and larger) */
-  @media only screen and (min-width: 768px) {
-    body {
-      font-size: 18px;
-    }
-
-    .nav-bar svg {
-      height: 35px;
-      width: 50px;
-    }
-
-    .opening-hours-schedule {
-      font-size: 1.2em;
-
-    }
-
-    .index-buttons-container {
-      margin-top: 40%; /* Adjust the value for desktops */
-    }
-
-    .divider {
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-
-    .footer-content {
-      font-size: 1.2em;
-    }
-
-    #nav-id .nav-item {
-      font-size: 0.8em; /* Adjust the font size as needed */
-
-    }
-
-    .footer-icons-section a img {
-      width: 35px; /* Adjust the size as needed */
-      height: auto; /* Maintain aspect ratio */
-    }
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
   }
 
+  .nav-bar svg {
+    height: 35px;
+    width: 50px;
+  }
+
+  .opening-hours-schedule {
+    font-size: 1.2em;
+  }
+
+  .index-buttons-container {
+    margin-top: 40%; /* Adjust the value for desktops */
+  }
+
+  .divider {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer-content {
+    font-size: 1.2em;
+  }
+
+  #nav-id .nav-item {
+    font-size: 0.8em; /* Adjust the font size as needed */
+  }
+
+  .footer-icons-section a img {
+    width: 35px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
 
 /* Desktop styles (for screens 1024px and larger) */
 @media only screen and (min-width: 1024px) {
@@ -542,7 +536,6 @@ span.price {
 
   .opening-hours-schedule {
     font-size: 1.2em;
-
   }
 
   .hero-banner {
@@ -590,14 +583,12 @@ span.price {
 
   #nav-id .nav-item {
     font-size: 0.7em; /* Adjust the font size as needed */
-
   }
 
   .footer-icons-section a img {
     width: 50px; /* Adjust the size as needed */
     height: auto; /* Maintain aspect ratio */
   }
-
 }
 
 /* ALL CSS Patrick*/
