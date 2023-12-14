@@ -562,3 +562,10 @@ img {
   font-size: 15px;
   text-align: center;
 }
+
+/*Sørger for at teksten blir større, etter min 650px størrelse*/ /*navngi for å gi style spesifikt i høyere reso*/
+@media only screen and (min-width: 650px) {
+  .container2 .container-image .text {
+    font-size: 30px;
+  }
+}
