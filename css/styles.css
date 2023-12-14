@@ -192,6 +192,7 @@
   border-radius: 8px;
   border: 2px solid black;
   height: 50%;
+  z-index: 100;
 
 
   /* Additional styles if needed */
