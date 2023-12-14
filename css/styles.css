@@ -582,3 +582,14 @@ img {
   right: 5px;
   border-radius: 100px;
 }
+
+.btn-explore {
+  background-color: #DB9350;
+  color: #000000;
+  font-weight: normal;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
