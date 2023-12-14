@@ -133,7 +133,7 @@
   align-items: center;
 }
 
-.nav-item:hover {
+#nav-id .nav-item:hover {
   text-decoration: underline; /* Underline the text on hover */
   color: #db9350; /* Change the text color on hover */
   border: 2px solid #db9350; /* Add a border on hover */
