@@ -169,15 +169,6 @@
   transition: border-color 0.3s ease;
 }
 
-#popup-box-id {
-  z-index: 100;
-  width: 80%;
-  height: 250px;
-  position: fixed;
-  align-self: center;
-  border-radius: 8px;
-  background-color: white;
-}
 
 #popup-box-id .popup-box-logo {
   display: flex;
@@ -192,13 +183,17 @@
 /* Existing styles for popup box */
 #popup-box-id {
   position: fixed;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
+  align-self: center;
+  border-radius: 8px;
+  border: 2px solid black;
+  height: 50%;
 
-  z-index: 1000;
-  display: none;
+
   /* Additional styles if needed */
 }
 
