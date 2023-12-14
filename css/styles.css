@@ -527,3 +527,9 @@ span.price {
   margin: 0 auto;
 }
 
+
+.explore-content {
+  padding: 0px 40px;
+  max-width: 600px; /*maks størrelse for denne containeren er 600, pga main (parent) ikke kan bli større enn 600px*/
+  margin: 0 auto; /*sentrerer 0 gjør ikke så mye alene på y akse, men auto, gjør at alt space mellom høyre og venstre blir likt, derfor blir ting sentrert*/
+}
