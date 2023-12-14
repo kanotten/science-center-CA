@@ -1,97 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>VISIT US</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="../css/styles.css"
-    />
-    <script src="../js/script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,800;1,100;1,300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--i am still working on the header, it starts here-->
-    <header id="menu-bar-container">
-      <div class="menu-bar">
-        <h1>VISIT US</h1>
-        <nav class="nav-bar">
-          <svg
-            class="hambuger-icon"
-            id="menu-icon"
-            width="32"
-            height="16"
-            viewBox="0 0 32 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M3 2L29 2" stroke="#DB9350" stroke-width="4" />
-            <path d="M0 8L32 8" stroke="#DB9350" stroke-width="4" />
-            <path d="M2.99999 14L29 14" stroke="#DB9350" stroke-width="4" />
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>VISIT US</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+  <script src="../js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,800;1,100;1,300&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!--i am still working on the header, it starts here-->
+  <header id="menu-bar-container">
+    <div class="menu-bar">
+      <h1>VISIT US</h1>
+      <nav class="nav-bar">
+        <svg class="hambuger-icon" id="menu-icon" width="32" height="16" viewBox="0 0 32 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 2L29 2" stroke="#DB9350" stroke-width="4" />
+          <path d="M0 8L32 8" stroke="#DB9350" stroke-width="4" />
+          <path d="M2.99999 14L29 14" stroke="#DB9350" stroke-width="4" />
+        </svg>
+      </nav>
+    </div>
+  </header>
+
+  <banner class="hero-banner-container">
+    <div class="hero-banner">
+      <div class="opening-hours-container">
+        <div class="opening-hours-header">
+          <h2>Opening <br />Hours</h2>
+          <svg width="37" height="26" viewBox="0 0 37 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="37" height="26" fill="url(#pattern0)" />
+            <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_171_1079" transform="matrix(0.01 0 0 0.0142308 0 -0.211538)" />
+              </pattern>
+              <image id="image0_171_1079" width="100" height="100"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABRhJREFUeAHtnb2LFEEQxQ9DBcFANFIxNRHEQDEw0MRMxUADOQQNTEwEU0MRNDMTzE1FEARF/wINDBQ/chExEQPRJ33O7d3MVNVU9+1298y+heFmarqmun6vu7e3Z253ZYUvEiABElgOAgDOA/gkbK/GRGAqeawAWIX8+jIyQSaRBwWprdWxh1SmCAWhIAshMJWGxfeQhTSPLVx0Ki1rKnmwh2yhMbtdAWwHcAnALcf2WP4Ygu8OX8/1c5XZah43ABx2Q/YWBLAXwAcFMs02gT8AbnpZu8oBeGjH5NkBAr8B7HfB9hQC8G4gIE8PE7jgYe0qA+DLcDyWGCCw6oLtKURBBlD7TmcRJAxlz4VNG+J+CWUl/1psKXmEHKVXFkHEIFP5QJWShzGaiKw8I1SvTGyQlER6QSswpOQRyyopzdggKYkkVWzBTil5xLJKSiE2SEoiSRVbsFNKHrGsklKIDZKSSFLFFuyUkkcsq6QUYoOkJJJUsQU7peQRyyophSxBkmpWn5PBSpoKd21/AbwHcNXMzAgyv6mcWYPxnDRYdeEPHV9UszaCUJAONYPVkADd8y86l944NIJQkA1Ma3sGqy7woWP9GTYjCAWhIB0ClR0ajXeoR3TPJ/UQbXGxlsXBEvXQFhfvAjglbMEuvZIEkS5Em0xAHN5TPuuEp0h4g0qGHGOlIDG0MpSlIBkgx4SgIDG0MpTNIshTAHe4tRj8UMTNIogYpLKPBlmrY0yARFbznmWJQbISqCwYBaEgrRGSPaTTINhDOkBKH1KQ0gp04huCZFnL4pDlF6Q11jsOkhYXRUEAnAQQ/tnF3Dq5zA4B3B7yBXB95rBpB8Buh2+o16FNbrNdABcc/g9mDp0do4c4NGgVmasg2jcgtCJ2cpkdAnjZKigfPJo5bNoBcEAu3rOe3OQ2220aQ69wx6DCoiAzlP93KEgHSDg0Pn22GprgumZiD1nDpPZC636I9h7CIavV9JIOKEjTu8OEYuilwjLeQ2IbrxojpYcc8awAG0PWNYe/+D97AHY5fMMK9UEpfnPPe2gF+5bk2wiq3V0tJ4hW2WWwV9lDlgG8liMF0cgUslOQQuC1sBREI1PITkEKgdfCUhCNTCE7BSkEXgtLQTQyhewUpBB4LSwF0cgUslOQQuC1sFUKAuAisPb9iuE7FtXNSOqJ5decE2+jAtjn8A11OiHFb74TUq1zc+03km+w1SoI74f0F/DLrfbyjmFfjcBE6lUGq7neD2EP6WtCQfpMWpbcT51QkBb+/sFSCRKejQoPnJmbNKY2M5XwoJ3pC+Co5A9gh8M3XHu34n/I4X9G8m3qzlu4GpwS9iqnvSVA1BKTgtSiRFMPCkJBWtMVcSpXGaOs1WEPyYp7OBgFGWaUtURpQb4KP68q/eTqMtnCb4VIL3F4n/dalhSYNpkABZG5FLPOVZC3xdKYTuCz0ptZ6pB1fzpcimTyE8CeeQqyE8DrIqmMP2gQQ/1S5KQeEpQFsA3AMQBXAIR/qLG2RwrHbwN+1jXHeO6c1jPWe0uyIOsX8PzNEsRTkRGUycIqS5ARwPZUMQurLEE82Y6gTBZWWYKMALanillYZQniyXYEZbKwMoIs2yzLMzPUZqT6c1mxDc0QRJkN0ywQoCAClJKmuQpyuWQmE4n9OXZkUssDOD4RKCXTeKYCjj3RLLNw7StdzvBrbadiuZvlAYQFyXsA3vCuIrx3TD8CeAbgtAmXJ0mABEigbgL/AEmZ7r60IYMdAAAAAElFTkSuQmCC" />
+            </defs>
           </svg>
-        </nav>
-      </div>
-    </header>
+        </div>
 
-    <banner class="hero-banner-container">
-      <div class="hero-banner">
-        <div class="opening-hours-container">
-          <div class="opening-hours-header">
-            <h2>Opening <br />Hours</h2>
-            <svg
-              width="37"
-              height="26"
-              viewBox="0 0 37 26"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <rect width="37" height="26" fill="url(#pattern0)" />
-              <defs>
-                <pattern
-                  id="pattern0"
-                  patternContentUnits="objectBoundingBox"
-                  width="1"
-                  height="1"
-                >
-                  <use
-                    xlink:href="#image0_171_1079"
-                    transform="matrix(0.01 0 0 0.0142308 0 -0.211538)"
-                  />
-                </pattern>
-                <image
-                  id="image0_171_1079"
-                  width="100"
-                  height="100"
-                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABRhJREFUeAHtnb2LFEEQxQ9DBcFANFIxNRHEQDEw0MRMxUADOQQNTEwEU0MRNDMTzE1FEARF/wINDBQ/chExEQPRJ33O7d3MVNVU9+1298y+heFmarqmun6vu7e3Z253ZYUvEiABElgOAgDOA/gkbK/GRGAqeawAWIX8+jIyQSaRBwWprdWxh1SmCAWhIAshMJWGxfeQhTSPLVx0Ki1rKnmwh2yhMbtdAWwHcAnALcf2WP4Ygu8OX8/1c5XZah43ABx2Q/YWBLAXwAcFMs02gT8AbnpZu8oBeGjH5NkBAr8B7HfB9hQC8G4gIE8PE7jgYe0qA+DLcDyWGCCw6oLtKURBBlD7TmcRJAxlz4VNG+J+CWUl/1psKXmEHKVXFkHEIFP5QJWShzGaiKw8I1SvTGyQlER6QSswpOQRyyopzdggKYkkVWzBTil5xLJKSiE2SEoiSRVbsFNKHrGsklKIDZKSSFLFFuyUkkcsq6QUYoOkJJJUsQU7peQRyyophSxBkmpWn5PBSpoKd21/AbwHcNXMzAgyv6mcWYPxnDRYdeEPHV9UszaCUJAONYPVkADd8y86l944NIJQkA1Ma3sGqy7woWP9GTYjCAWhIB0ClR0ajXeoR3TPJ/UQbXGxlsXBEvXQFhfvAjglbMEuvZIEkS5Em0xAHN5TPuuEp0h4g0qGHGOlIDG0MpSlIBkgx4SgIDG0MpTNIshTAHe4tRj8UMTNIogYpLKPBlmrY0yARFbznmWJQbISqCwYBaEgrRGSPaTTINhDOkBKH1KQ0gp04huCZFnL4pDlF6Q11jsOkhYXRUEAnAQQ/tnF3Dq5zA4B3B7yBXB95rBpB8Buh2+o16FNbrNdABcc/g9mDp0do4c4NGgVmasg2jcgtCJ2cpkdAnjZKigfPJo5bNoBcEAu3rOe3OQ2220aQ69wx6DCoiAzlP93KEgHSDg0Pn22GprgumZiD1nDpPZC636I9h7CIavV9JIOKEjTu8OEYuilwjLeQ2IbrxojpYcc8awAG0PWNYe/+D97AHY5fMMK9UEpfnPPe2gF+5bk2wiq3V0tJ4hW2WWwV9lDlgG8liMF0cgUslOQQuC1sBREI1PITkEKgdfCUhCNTCE7BSkEXgtLQTQyhewUpBB4LSwF0cgUslOQQuC1sFUKAuAisPb9iuE7FtXNSOqJ5decE2+jAtjn8A11OiHFb74TUq1zc+03km+w1SoI74f0F/DLrfbyjmFfjcBE6lUGq7neD2EP6WtCQfpMWpbcT51QkBb+/sFSCRKejQoPnJmbNKY2M5XwoJ3pC+Co5A9gh8M3XHu34n/I4X9G8m3qzlu4GpwS9iqnvSVA1BKTgtSiRFMPCkJBWtMVcSpXGaOs1WEPyYp7OBgFGWaUtURpQb4KP68q/eTqMtnCb4VIL3F4n/dalhSYNpkABZG5FLPOVZC3xdKYTuCz0ptZ6pB1fzpcimTyE8CeeQqyE8DrIqmMP2gQQ/1S5KQeEpQFsA3AMQBXAIR/qLG2RwrHbwN+1jXHeO6c1jPWe0uyIOsX8PzNEsRTkRGUycIqS5ARwPZUMQurLEE82Y6gTBZWWYKMALanillYZQniyXYEZbKwMoIs2yzLMzPUZqT6c1mxDc0QRJkN0ywQoCAClJKmuQpyuWQmE4n9OXZkUssDOD4RKCXTeKYCjj3RLLNw7StdzvBrbadiuZvlAYQFyXsA3vCuIrx3TD8CeAbgtAmXJ0mABEigbgL/AEmZ7r60IYMdAAAAAElFTkSuQmCC"
-                />
-              </defs>
-            </svg>
-          </div>
-
-          <div class="opening-hours-schedule">
-            <p>Mon-Thur: 9-16</p>
-            <p>Fri: 10-19</p>
-            <p>Sat: 9-13</p>
-            <p><span class="closed">closed</span>Sun:</p>
-          </div>
+        <div class="opening-hours-schedule">
+          <p>Mon-Thur: 9-16</p>
+          <p>Fri: 10-19</p>
+          <p>Sat: 9-13</p>
+          <p><span class="closed">closed</span>Sun:</p>
         </div>
       </div>
-    </banner>
-    ><!--header ends here-->
+    </div>
+  </banner>
+  ><!--header ends here-->
 
-    <main class="main-layout">
-      <div class="main-container">
-        <div id="popup-box-id">
+  <main class="main-layout">
+    <div class="main-container">
+      <section class="Admission-section">
+        <div>
+          <h2>ADMISSION</h2>
+          <p>
+            The entrance is
+            free for all</p> <!--Usikker på om jeg kan bolde ut free på denne måten?-->
+          <p>
+            There are guided tours of the museum that leaves every hour.
+            These tours are 70 NOK per person and include a handy printed guide of the museum.
+          </p>
+          <p>
+            If you would like to organize a guided tour
+            for your group
+            of 6 or more people,
+            please contact us to arrange the tour.
+          </p>
+          <button class="btn-explore">Buy tickets</button>
+        </div>
+      </section>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <hr class="footer-line" />
+      <div class="footer-content">
+        <section class="footer-section">
           <ul class="nav" id="nav-id">
             <li><a class="nav-item" href="index.html">Start</a></li>
             <li>
@@ -102,99 +101,27 @@
             </li>
             <li><a class="nav-item" href="visit.html">Visit us</a></li>
           </ul>
-          <div class="popup-box-logo">
-            <img class="logo" src="../assets/Science-center-logo.jpeg" />
-          </div>
-
-
+        </section>
+        <div class="footer-text">
+          <p>NorSci Science Center As<br />Adress: storgata 26 0037 Oslo.</p>
+          <span class="footer-opening-hours">Todays hours: 9-16</span>
+          <p class="footer-copy">Copyright 2021. All Rights Reserved</p>
         </div>
-        <!--Write your code inside here, it will keep everything you write under eachother as standard-->
-        <section class="ex-section-one">
-          <img src="../assets/1701733313698tnf0widr.png" />
-          <a href="Checkout.html" class="ticket-btn">Buy tickets</a>
-          <div class="section-content-one">
-            <div class="content-text-one">
-              <h2 class="section-title-one">Exhibit</h2>
-              <div class="divider-line-one divider"></div>
-            </div>
 
-            <p>
-              Dive into space exploration through hands on interactions in our
-              gallery
-            </p>
-            <p>
-              Want to try a real space suit? all children will be able to wear a
-              suit during the whole tour
-            </p>
-            <img src="../assets/astrosuit.jpeg" />
-          </div>
-        </section>
-        <section class="ex-section-two">
-          <div class="section-content-two">
-            <div class="content-text-one">
-              <div class="divider-two divider"></div>
-              <h2 class="section-title-two">SSR-1</h2>
-            </div>
-            <img src="../assets/17017334931740q9y13nq.png" />
-            <p>
-              curiosity knows no bounds, come and take a tour inside our space
-              shuttle. a real prototype sent to us by NASA. Everybody will go
-              through a take-off protocol
-            </p>
-            <img src="../assets/spaceshuttle.jpg" />
-          </div>
-        </section>
-        <section class="ex-section-three">
-          <div class="section-content-three">
-            <div class="content-text-one">
-              <h2 class="section-title-three">Astronauts</h2>
-              <div class="divider-three divider"></div>
-            </div>
-            <img src="../assets/1701734540135d0v5nv5w.png" />
-            <p>
-              we are lucky to have real astonauts on board our tour. they are
-              ready for all questions one may have
-            </p>
-          </div>
+        <section class="footer-icons-section">
+          <a>
+            <img src="../assets/icon-facebook.svg" alt="Facebook Logo" />
+          </a>
+          <a>
+            <img src="../assets/icon-twitter.svg" alt="Twitter Logo" />
+          </a>
+          <a>
+            <img src="../assets/icon-instagram.svg" alt="Instagram Logo" />
+          </a>
         </section>
       </div>
-    </main>
+    </div>
+  </footer>
+</body>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <hr class="footer-line" />
-        <div class="footer-content">
-          <section class="footer-section">
-            <ul class="nav" id="nav-id">
-              <li><a class="nav-item" href="index.html">Start</a></li>
-              <li>
-                <a class="nav-item" href="Exhibition.html">Exhibitions</a>
-              </li>
-              <li>
-                <a class="nav-item" href="explore.html">explore</a>
-              </li>
-              <li><a class="nav-item" href="visit.html">Visit us</a></li>
-            </ul>
-          </section>
-          <div class="footer-text">
-            <p>NorSci Science Center As<br />Adress: storgata 26 0037 Oslo.</p>
-            <span class="footer-opening-hours">Todays hours: 9-16</span>
-            <p class="footer-copy">Copyright 2021. All Rights Reserved</p>
-          </div>
-
-          <section class="footer-icons-section">
-            <a>
-              <img src="../assets/icon-facebook.svg" alt="Facebook Logo" />
-            </a>
-            <a>
-              <img src="../assets/icon-twitter.svg" alt="Twitter Logo" />
-            </a>
-            <a>
-              <img src="../assets/icon-instagram.svg" alt="Instagram Logo" />
-            </a>
-          </section>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
