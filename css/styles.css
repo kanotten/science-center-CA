@@ -752,7 +752,7 @@ span.price {
   height: 40px;
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
+  border-radius: 8px;
 }
 
 .location-section  .location-container {
