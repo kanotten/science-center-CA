@@ -488,6 +488,9 @@ span.price {
   body {
     font-size: 18px;
   }
+  #popup-box-id {
+    height: 40%
+  }
 
   .nav-bar svg {
     height: 35px;
@@ -538,6 +541,10 @@ span.price {
 
   #popup-box-id .nav .nav-item {
     font-size: 1.2em;
+  }
+
+  #popup-box-id {
+    height: 30%
   }
 
   .logo {
