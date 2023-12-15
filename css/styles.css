@@ -722,3 +722,9 @@ img {
   height: 100%;
   width: 100%;
 }
+
+/*avstand mellom EXPLORE og øverste bilde*/
+.container2 img {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
