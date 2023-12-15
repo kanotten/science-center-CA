@@ -752,3 +752,12 @@ img {
   font-size: 14px;
   font-weight: bold;
 }
+
+.location-section  .location-container {
+  display: block;
+}
+
+.btn-google {
+  display: block;
+}
+
