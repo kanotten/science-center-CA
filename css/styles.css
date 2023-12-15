@@ -706,3 +706,9 @@ img {
   font-size: 14px;
   font-weight: bold;
 }
+
+.for-kids img {
+  height: 100%;
+  width: 100%;
+
+}
