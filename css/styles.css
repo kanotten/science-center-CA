@@ -686,3 +686,12 @@ img {
 .container-image {
   position: relative;
 }
+
+.container2 .btn-explore {
+  position: absolute;
+  /* top: 0px; */
+  /*  left: 0px;*/
+  bottom: 10px;
+  right: 5px;
+  border-radius: 100px;
+}
