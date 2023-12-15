@@ -730,3 +730,14 @@ img {
 }
 
 /* Style Visit US page*/
+
+.btn-location {
+  background-color: #DB9350;
+  color: #000000;
+  font-weight: normal;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
