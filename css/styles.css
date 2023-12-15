@@ -621,19 +621,18 @@ span.price {
 
 }
 
-/* ALL CSS Patrick*/
+/* CSS PAT*/
 
-/*main*/
-.main-explore {
-  /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
-  padding: 0; /* Må byttes ut, og styles med resten av pagen*/
-  margin: 0;
-  box-sizing: border-box;
-  text-align: left;
-  margin-bottom: 15px; /*styre avstand mellom elementene på siden*/
+.main-explore { /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
+  padding: 0;  /* Må byttes ut, og styles med resten av
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 15px;  /*styre avstand mellom elementene på siden*/
   margin-top: 10px; /*alle får samme top margin som øverste element*/
   font-size: 14px;
 }
+
 
 .explore-herobanner {
   padding: 0px 20px;
@@ -647,8 +646,7 @@ span.price {
   margin: 0 auto; /*sentrerer 0 gjør ikke så mye alene på y akse, men auto, gjør at alt space mellom høyre og venstre blir likt, derfor blir ting sentrert*/
 }
 
-/*Mulig denne må byttes ut?*/
-img {
+.img {
   display: block;
   margin: 0;
   padding: 0;
@@ -667,9 +665,9 @@ img {
   margin: 0 auto;
 }
 
-.container2 .container-image .text {
+.container2 .container-image .textvisit {
   position: absolute;
-  color: white;
+  color:white;
   top: 10px;
   right: 10px;
   font-size: 15px;
@@ -678,10 +676,11 @@ img {
 
 /*Sørger for at teksten blir større, etter min 650px størrelse*/ /*navngi for å gi style spesifikt i høyere reso*/
 @media only screen and (min-width: 650px) {
-  .container2 .container-image .text {
+  .container2 .container-image .textvisit {
     font-size: 30px;
   }
 }
+
 
 .container-image {
   position: relative;
@@ -716,11 +715,13 @@ img {
 .container-for-teachers img {
   height: 100%;
   width: 100%;
+
 }
 
 .container-for-researchers img {
   height: 100%;
   width: 100%;
+
 }
 
 /*avstand mellom EXPLORE og øverste bilde*/
@@ -729,7 +730,7 @@ img {
   margin-top: 10px;
 }
 
-/* Style Visit US page*/
+/*STYLE VISIT US PAGE*/
 
 .btn-location {
   background-color: #DB9350;
@@ -741,6 +742,7 @@ img {
   font-size: 14px;
   font-weight: bold;
 }
+
 
 .btn-google {
   background-color: #DB9350;
