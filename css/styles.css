@@ -743,6 +743,9 @@ span.price {
   cursor: pointer;
   text-decoration: none;
   transition: background 0.3 ease-in-out;
+  max-width:147px;
+  max-height:55px;
+  text-align: center;
 }
 
 .location-section  .location-container {
