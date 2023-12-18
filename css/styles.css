@@ -626,24 +626,24 @@ span.price {
 
 /* CSS PAT - Explore and VISIT specific css*/
 .main-explore { /*wraps the content, and gives margin on the top/ bottom*/
-  padding: 0;  
-  margin-bottom: 15px;  
-  margin-top: 10px; 
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .explore-herobanner { /* determines how wide the herobanner is allowed to be*/
   padding: 0px 20px;
-  max-width: 800px; 
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .explore-content { /* determines how wide explorer content is allowed to be, AND sets the margin to center content ( margin: 0 auto) */
   padding: 0px 40px;
   max-width: 600px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-.img { 
+.img {
   display: block;
   margin: 0;
   padding: 0;
@@ -735,7 +735,7 @@ span.price {
   height: 40px;
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
+  
 }
 
 .for-kids img { /* makes the img fit the container*/
@@ -778,7 +778,7 @@ span.price {
   display: block;
 }
 
-.btn-google { 
+.btn-google {
   display: block;
 }
 
