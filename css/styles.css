@@ -621,32 +621,27 @@ span.price {
 
 }
 
-/* CSS PAT*/
+/* CSS PAT - Explore and VISIT specific css*/
 
-.main-explore { /* her inne kan jeg vell style tekst også, også gi andre spesifikke, deres classer*/
-  padding: 0;  /* Må byttes ut, og styles med resten av
-    margin: 0;
-    box-sizing: border-box;
-    text-align: left;
-    margin-bottom: 15px;  /*styre avstand mellom elementene på siden*/
-  margin-top: 10px; /*alle får samme top margin som øverste element*/
-  font-size: 14px;
+.main-explore { /*wraps the content, and gives margin on the top/ bottom*/
+  padding: 0;  
+  margin-bottom: 15px;  
+  margin-top: 10px; 
 }
 
-
-.explore-herobanner {
+.explore-herobanner { /* determines how wide the herobanner is allowed to be*/
   padding: 0px 20px;
-  max-width: 800px; /*maks størrelse for denne containeren er 800, pga main (parent) ikke kan bli større enn 600px*/
+  max-width: 800px; 
   margin: 0 auto;
 }
 
-.explore-content {
+.explore-content { /* determines how wide explorer content is allowed to be, AND sets the margin to center content ( margin: 0 auto) */
   padding: 0px 40px;
-  max-width: 600px; /*maks størrelse for denne containeren er 600, pga main (parent) ikke kan bli større enn 600px*/
-  margin: 0 auto; /*sentrerer 0 gjør ikke så mye alene på y akse, men auto, gjør at alt space mellom høyre og venstre blir likt, derfor blir ting sentrert*/
+  max-width: 600px;
+  margin: 0 auto; 
 }
 
-.img {
+.img { 
   display: block;
   margin: 0;
   padding: 0;
@@ -665,7 +660,7 @@ span.price {
   margin: 0 auto;
 }
 
-.container2 .container-image .textvisit {
+.container2 .container-image .textvisit { /*Styles the herobanner h2 and p*/
   position: absolute;
   color:white;
   top: 10px;
@@ -674,28 +669,42 @@ span.price {
   text-align: center;
 }
 
-/*Sørger for at teksten blir større, etter min 650px størrelse*/ /*navngi for å gi style spesifikt i høyere reso*/
+/* Scaling*/
+
+/*scaling font sizes for different screens*/
 @media only screen and (min-width: 650px) {
   .container2 .container-image .textvisit {
     font-size: 30px;
   }
 }
 
+@media only screen and (max-width: 380px) {
+  .container2 .container-image .textvisit h2 {
+    font-size: 16px;
+  }
 
-.container-image {
+  .container2 .container-image .textvisit p {
+    font-size: 12px;
+  }
+
+  .container2 .container-image .btn-explore {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+.container-image { /* what lies within container image, is relative to its position*/
   position: relative;
 }
 
-.container2 .btn-explore {
+.container2 .btn-explore { /* position absolute is used to position the btn relative to container img*/
   position: absolute;
-  /* top: 0px; */
-  /*  left: 0px;*/
   bottom: 10px;
   right: 5px;
   border-radius: 100px;
 }
 
-.btn-explore {
+.btn-explore { /*btn styling*/
   background-color: rgb(255, 81, 0);
   color: #000000;
   font-weight: normal;
@@ -706,16 +715,15 @@ span.price {
   font-weight: bold;
 }
 
+/* makes the img fit the container*/
 .for-kids img {
   height: 100%;
   width: 100%;
-
 }
 
 .container-for-teachers img {
   height: 100%;
   width: 100%;
-
 }
 
 .container-for-researchers img {
@@ -724,13 +732,12 @@ span.price {
 
 }
 
-/*avstand mellom EXPLORE og øverste bilde*/
+/*Sets space in the btm and top of images*/
 .container2 img {
   margin-bottom: 15px;
   margin-top: 10px;
 }
 
-/*STYLE VISIT US PAGE*/
 .btn-google {
   background-color: rgb(255, 81, 0);
   color: #000000;
@@ -749,4 +756,5 @@ span.price {
 .btn-google {
   display: block;
 }
+
 
