@@ -668,6 +668,29 @@ span.price {
   text-align: center;
 }
 /* Scaling*/
+/*scaling btn-google */
+@media only screen and (min-width: 360px) {
+.location-section .location-container .btn-google {
+ max-width:105px;
+ max-height:43px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .location-section .location-container .btn-google {
+    max-width:116px;
+    max-height:45px;
+   }
+}
+
+@media only screen and (min-width: 1024px) {
+  .location-section .location-container .btn-google {
+    max-width:147px;
+    max-height:54.4px;
+   }
+}
+
+
 /*scaling font sizes for different screens for herobanner text*/
 @media only screen and (min-width: 650px) {
   .container2 .container-image .textvisit {
