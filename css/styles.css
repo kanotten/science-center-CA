@@ -731,19 +731,6 @@ span.price {
 }
 
 /*STYLE VISIT US PAGE*/
-
-.btn-location {
-  background-color: rgb(255, 81, 0);
-  color: #000000;
-  font-weight: normal;
-  width: 200px;
-  height: 40px;
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-
 .btn-google {
   background-color: rgb(255, 81, 0);
   color: #000000;
