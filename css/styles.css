@@ -622,7 +622,6 @@ span.price {
 }
 
 /* CSS PAT - Explore and VISIT specific css*/
-
 .main-explore { /*wraps the content, and gives margin on the top/ bottom*/
   padding: 0;  
   margin-bottom: 15px;  
@@ -668,10 +667,8 @@ span.price {
   font-size: 15px;
   text-align: center;
 }
-
 /* Scaling*/
-
-/*scaling font sizes for different screens*/
+/*scaling font sizes for different screens for herobanner text*/
 @media only screen and (min-width: 650px) {
   .container2 .container-image .textvisit {
     font-size: 30px;
@@ -687,7 +684,7 @@ span.price {
     font-size: 12px;
   }
 
-  .container2 .container-image .btn-explore {
+  .container2 .container-image .btn-explore { /*scaling btn size to fit smaller screens*/
     width: 100px;
     height: 30px;
   }
@@ -715,8 +712,7 @@ span.price {
   font-weight: bold;
 }
 
-/* makes the img fit the container*/
-.for-kids img {
+.for-kids img { /* makes the img fit the container*/
   height: 100%;
   width: 100%;
 }
@@ -732,8 +728,7 @@ span.price {
 
 }
 
-/*Sets space in the btm and top of images*/
-.container2 img {
+.container2 img { /*Sets space in the btm and top of images*/
   margin-bottom: 15px;
   margin-top: 10px;
 }
