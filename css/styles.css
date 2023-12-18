@@ -616,7 +616,10 @@ span.price {
   }
 
   img {
-    width: 1200px;
+    width: 100px;
+  }
+  .location-container img {
+    width: 100%;
   }
 
 }
