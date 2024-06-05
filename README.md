@@ -1,19 +1,43 @@
 # Sience-center-Ca
-sience center webpage for CA. 
 
-we will use html, css and a little script.js
+Overview
 
-This is a website for a science center, with the main theme as universe/space.
+This project is a website for a science center themed around the universe and space. It is a collaborative effort by Kenneth Sheikh and Patrick Røethe. The site comprises 4-6 pages, featuring a captivating animation on the start page and a checkout section.
 
-It contains 4-6 pages.
+Features
 
-it will include an animation.
+Theme: Universe and space
+Pages: 4-6 main pages including a start page and a checkout section
+Animation: Earth orbiting the sun on the start page
+Responsiveness: Media queries for various screen sizes
+Navigation: Dropdown menu for ease of access
+Interactivity: Seamless linking of buttons to respective pages
+Collaboration: Each contributor is responsible for at least two pages
+Educational Purpose: Some images used may be copyrighted, but they are strictly for educational use
 
-We are two contributers for this project.
-each taking care of at least to pages.
+Technologies Used
+ - HTML
+ - CSS
+ - JavaScript (script.js)
 
-some images may be copyrighted and are purly used for educational purposes.
+Summary
 
-summary: 
+ The science center exam assignment is a joint effort by Kenneth Sheikh and Patrick Røethe, featuring a website with a central theme of space and the universe. The project highlights include:
 
-The science center exam assignment, a collaborative effort by Kenneth Sheikh and Patrick Røethe, encompasses a website with four main pages and a checkout section. The central theme revolves around space and the universe, evident in the start page's captivating animation of the Earth orbiting the sun. To ensure responsiveness, media queries are employed for various screen sizes, complemented by a dropdown menu. All buttons seamlessly link to their respective pages. Reflecting on the project, the initial planning was deemed somewhat naive, emphasizing the importance of effective communication over rigid timelines. Design decisions evolved, leveraging individual strengths and adapting to challenges. While content with the current product, the team acknowledges room for improvement and plans post-delivery enhancements, aspiring for perfection in creating a kid-friendly, educational platform. Copyright concerns regarding images are addressed, emphasizing their educational intent.
+ - A start page with an engaging animation of Earth orbiting the sun.
+ - Responsive design achieved through media queries.
+ - A user-friendly dropdown menu.
+ - Efficient button navigation linking to respective pages.
+
+
+Design Decisions:
+
+ Design choices were made dynamically, focusing on creating a kid-friendly and educational platform. While the team is pleased with the current product, they recognize there is room for improvement and plan to make enhancements post-delivery to strive for perfection.
+
+Educational Intent and Copyright
+
+ The project uses some images that may be copyrighted. These images are utilized purely for educational purposes to enrich the content and provide a better learning experience for the users.
+
+Contributors
+ - Kenneth Sheikh
+ - Patrick Røethe
