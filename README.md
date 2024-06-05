@@ -41,3 +41,7 @@ Educational Intent and Copyright
 Contributors
  - Kenneth Sheikh
  - Patrick Røethe
+
+
+For a preview on page, open this netlify link: 
+https://sciencecenter.netlify.app/
