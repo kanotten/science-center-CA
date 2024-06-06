@@ -1,10 +1,10 @@
 # Sience-center-Ca
 
-###Overview
+### Overview
 
 This project is a website for a science center themed around the universe and space. It is a collaborative effort by Kenneth Sheikh and Patrick Røethe. The site comprises 4-6 pages, featuring a captivating animation on the start page and a checkout section.
 
-###Features
+### Features
 
 Theme: 
  - science center evolving around space and the universe
@@ -21,14 +21,14 @@ Interactivity:
 Collaboration:
  - Each contributor is responsible for at least two pages
 
-###Educational Purpose: Some images used may be copyrighted, but they are strictly for educational use
+### Educational Purpose: Some images used may be copyrighted, but they are strictly for educational use
 
-###Technologies Used
+### Technologies Used
  - HTML
  - CSS
  - JavaScript (script.js)
 
-###Summary
+### Summary
 
  The science center exam assignment is a joint effort by Kenneth Sheikh and Patrick Røethe, featuring a website with a central theme of space and the universe. The project highlights include:
 
@@ -38,15 +38,15 @@ Collaboration:
  - Efficient button navigation linking to respective pages.
 
 
-###Design Decisions:
+### Design Decisions:
 
  Design choices were made dynamically, focusing on creating a kid-friendly and educational platform. While the team is pleased with the current product, they recognize there is room for improvement and plan to make enhancements post-delivery to strive for perfection.
 
-###Educational Intent and Copyright
+### Educational Intent and Copyright
 
  The project uses some images that may be copyrighted. These images are utilized purely for educational purposes to enrich the content and provide a better learning experience for the users.
 
-##Contributors
+## Contributors
  - Kenneth Sheikh
  - Patrick Røethe
 
